@@ -1,0 +1,325 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify - Web Player: Music for everyone</title>
+    <link rel="icon" href="./assets/logo.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="Spotify.css">
+
+</head>
+
+<body>
+    <div class="main">
+        <div class="sidebar">
+            <div class="nav">
+                <div class="nav-option" style="opacity: 1;">
+                    <i class="fa-solid fa-house"></i>
+                    <a href="#">Home</a>
+                </div>
+                <div class="nav-option">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+
+                    <a href="#">Search</a>
+                </div>
+            </div>
+            <div class="library">
+                <div class="option">
+                    <div class="library-option nav-option">
+                        <img src="/assets/library_icon.png" alt="$">
+                        <a href="#">Your Library</a>
+                    </div>
+                    <div class="icon">
+                        <i class="fa-solid fa-plus"></i>
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </div>
+                </div>
+                <div class="lib-box">
+                    <div class="box">
+                        <p class="p1">Creat your first playlist</p>
+                        <p class="p2">It's easy, w'll hlep you</p>
+                        <button class="badge">Create your playlist</button>
+                    </div>
+                    <div class="box2 box">
+                        <p class="p1">Let's find some podcaste to <br><br>follow</p>
+                        <p class="p2">we'll keep you updated on new <br><br>episodes</p>
+                        <button class="badge">Browse podcasts</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="maincontent">
+            <div class="stickynav">
+                <div class="first"> <img src="/assets/backward_icon.png" alt="">
+                    <img src="/assets/forward_icon.png" class="hide" alt="">
+                </div>
+                <div class="second">
+                    <button class="badge it hide">Explore Premium</button>
+                    <button class="badge it darkit">
+                        <i class="fa-regular fa-circle-down" style="margin-right:7px ;"></i>Insatll App</button>
+                    <i class="fa-regular fa-user it"></i>
+                </div>
+
+
+
+            </div>
+            <div class="btn">
+                <button>All</button>
+                <button>Music</button>
+                <button>Podcast</button>
+            </div>
+            <br>
+            <div class="mytype">
+                <div class="slide">
+                    <img src="/assets/sd1.png" alt="">
+                    <p>Liked Songs</p>
+                </div>
+                <div class="slide">
+                    <img src="/assets/sd2.png" alt="">
+                    <p>Sparkle</p>
+                </div>
+                <div class="slide">
+                    <img src="/assets/sd3.png" alt="">
+                    <p>🚿..</p>
+                </div>
+                <div class="slide">
+                    <img src="/assets/sd4.png" alt="">
+                    <p>Szerelem✨</p>
+                </div>
+                <div class="slide">
+                    <img src="/assets/sd5.png" alt="">
+                    <p>Darling Enjoy</p>
+                </div>
+                <div class="slide">
+                    <img src="/assets/sd6.png" alt="">
+                    <p>Neurodivergent♾️</p>
+                </div>
+            </div>
+            <br>
+
+            <h2>Recently Played</h2>
+            <div class="card-container">
+                <div class="card">
+                    <img src="/assets/ahh1.png" class="card-image" alt="">
+                    <p class="card-title">End of Beginning</p>
+                    <p class="card-info">Djo</p>
+                </div>
+                <div class="card">
+                    <img src="/assets/ahh3.png" class="card-image" alt="">
+                    <p class="card-title">1hour 45min</p>
+                    <p class="card-info">Moon</p>
+                </div>
+                <div class="card">
+                    <img src="/assets/last.png" class="card-image" alt="">
+                    <p class="card-title">I Love You So</p>
+                    <p class="card-info">The Walters</p>
+                </div>
+                <div class="card">
+                    <img src="/assets/ahh2.png" class="card-image" alt="">
+                    <p class="card-title">Fassle</p>
+                    <p class="card-info">Kaavish, Quratulain Balouch</p>
+                </div>
+                <div class="card">
+                    <img src="/assets/ahh6.png" class="card-image" alt="">
+                    <p class="card-title">CB 27 days</p>
+                    <p class="card-info">early 2023. thank you.</p>
+                </div>
+            </div>
+            <br>
+
+            <h2>Trending now near you</h2>
+            <div class="card-container">
+                <div class="card">
+                    <img src="/assets/harry33.jpg" class="card-image" alt="">
+                    <p class="card-title">As it was</p>
+                    <p class="card-info">Harry Styles</p>
+                </div>
+                <div class="card">
+                    <img src="/assets/local.jpg" class="card-image" alt="">
+                    <p class="card-title">Aaoge Tum Kabhi</p>
+                    <p class="card-info">The Local Train</p>
+                </div>
+                <div class="card">
+                    <img src="/assets/yellow.jpg" class="card-image" alt="">
+                    <p class="card-title">Yellow</p>
+                    <p class="card-info">Coldplay</p>
+                </div>
+                <div class="card">
+                    <img src="/assets/found you.jpg" class="card-image" alt="">
+                    <p class="card-title">Until I Found You
+                    </p>
+                    <p class="card-info">Stephen Sanchez
+                    </p>
+                </div>
+                <div class="card">
+                    <img src="/assets/marryyou.jpg" class="card-image" alt="">
+                    <p class="card-title">Marry You</p>
+                    <p class="card-info">Bruno Mars</p>
+                </div>
+            </div>
+            <br>
+            <h2>Your Top-Mix</h2>
+            <div class="card-container ">
+                <div class="card mix">
+                    <img src="/assets/pc1.png" class="card-image" alt="">
+                    <p class="card-title">Prateek Kuhad Mix</p>
+                    <p class="card-info">The Local Train, Vismay Patel and Suzonn</p>
+                </div>
+                <div class="card mix">
+                    <img src="/assets/pc2.png" class="card-image" alt="">
+                    <p class="card-title">2010s Mix</p>
+                    <p class="card-info">One Direction, Arjit Singh, Richy Mitch & The Coal...</p>
+                </div>
+                <div class="card mix">
+                    <img src="/assets/pc3.png" class="card-image" alt="">
+                    <p class="card-title">Coldplay Mix</p>
+                    <p class="card-info">Seafret, Lord Huron and Harry Styles</p>
+                </div>
+                <div class="card mix">
+                    <img src="/assets/pc4.png" class="card-image" alt="">
+                    <p class="card-title">Moody Mix</p>
+                    <p class="card-info">The Walters, Seafret, Setephen Dawes</p>
+                </div>
+                <div class="card ">
+                    <img src="/assets/pc5.png" class="card-image" alt="">
+                    <p class="card-title">Romanctic Mix</p>
+                    <p class="card-info">Mitraz, Pritam, Stephen Sanchez and more</p>
+                </div>
+            </div>
+            <h2>Top Artist</h2>
+            <div class="card-container ">
+                <div class="card artist">
+                    <img src="/assets/channels4_profile.jpg" class="card-image artis-image" alt="">
+                    <p class="card-title">Joonkook</p>
+                    <p class="card-info">Artist</p>
+                </div>
+                <div class="card artist">
+                    <img src="/assets/shwan.jpg" class="card-image artis-image" alt="">
+                    <p class="card-title">Shawan Mendes</p>
+                    <p class="card-info">Artist</p>
+                </div>
+                <div class="card artist">
+                    <img src="/assets/laaaaalnaa.jpg" class="card-image artis-image" alt="">
+                    <p class="card-title">Lana Del Ray</p>
+                    <p class="card-info">Artist</p>
+                </div>
+                <div class="card artist">
+                    <img src="/assets/ooolivia.jpg" class="card-image artis-image" alt="">
+                    <p class="card-title">Olivia Rodrigo</p>
+                    <p class="card-info">Artist</p>
+                </div>
+                <div class="card artist">
+                    <img src="/assets/travis.jpg" class="card-image artis-image" alt="">
+                    <p class="card-title">Travis Scott</p>
+                    <p class="card-info">Artist</p>
+                </div>
+            </div>
+            <h2>Showes you might like </h2>
+            <div class="card-container ">
+                <div class="card mix">
+                    <img src="/assets/pd1.png" class="card-image" alt="">
+                    <p class="card-title">Thewizarddliz</p>
+                    <p class="card-info">barbie</p>
+                </div>
+                <div class="card mix">
+                    <img src="/assets/pd2.png" class="card-image" alt="">
+                    <p class="card-title">The Storries of ...</p>
+                    <p class="card-info">Sudipta Bhawamik</p>
+                </div>
+                <div class="card mix">
+                    <img src="/assets/pd3.png" class="card-image" alt="">
+                    <p class="card-title">Shiva - Narrated by..</p>
+                    <p class="card-info">Fever FM - HT Smartcast</p>
+                </div>
+                <div class="card mix">
+                    <img src="/assets/pd4.png" class="card-image" alt="">
+                    <p class="card-title">Think Fast, Talk Smart...</p>
+                    <p class="card-info">Stanford GSB</p>
+                </div>
+                <div class="card ">
+                    <img src="/assets/pd5.png" class="card-image" alt="">
+                    <p class="card-title">The Mindset Mentor</p>
+                    <p class="card-info">Rob Dial</p>
+                </div>
+            </div>
+            <h2>Featured Charts</h2>
+            <div class="card-container">
+                <div class="card">
+                    <img src="/assets/card5img.jpeg" class="card-image" alt="">
+                    <p class="card-title">Top Somgs Global</p>
+                    <p class="card-info">Updates of the most played tracks .....</p>
+                </div>
+                <div class="card">
+                    <img src="/assets/card1img.jpeg" class="card-image" alt="">
+                    <p class="card-title">Top 50- Global</p>
+                    <p class="card-info">Your daily updates of the most played tracks .....</p>
+                </div>
+                <div class="card">
+                    <img src="/assets/card6img.jpeg" class="card-image" alt="">
+                    <p class="card-title">Top Song Inida</p>
+                    <p class="card-info">Your daily updates of the most played tracks in inida .....</p>
+                </div>
+                <div class="card">
+                    <img src="/assets/waaaop.jpg" class="card-image" alt="">
+                    <p class="card-title">2023 Wrapped</p>
+                    <p class="card-info">Wrapped 2023 .....</p>
+                </div>
+
+            </div>
+            <div class="footer">
+                <div class="line"></div>
+            </div>
+        </div>
+
+        <div class="musicplayer">
+            <div class="album">
+                <div class="albumimg">
+                    <img src="assets/somggg.jpg" alt="">
+                </div>
+                <div class="name">
+                    <div class="songname">Belong Together</div>
+
+                    <div class="singer">Mark Ambore</div>
+                </div>
+                <div class="ahh"> <i class="fa-solid fa-heart"></i></div>
+
+            </div>
+            <div class="player">
+                <div class="player-control">
+                    <img src="assets/player_icon1.png" class="player-cotrol-icon">
+                    <img src="assets/player_icon2.png" class="player-cotrol-icon">
+                    <img src="assets/player_icon3.png" class="player-cotrol-icon" style="opacity: 1; height: 2rem;">
+                    <img src="assets/player_icon4.png" class="player-cotrol-icon">
+                    <img src="assets/player_icon5.png" class="player-cotrol-icon">
+                </div>
+                <div class="playback-bar">
+                    <span class="current-time">00.00</span>
+                    <input type="range" min="0" max="100" class="progress-bar" step="1">
+                    <span class="total-time">2.28</span>
+                </div>
+            </div>
+            <div class="controls">
+                <div class="last">
+                    <div class="lasticon">
+                        <i class="fa-solid fa-microphone"></i>
+                        <i class="fa-solid fa-bars"></i>
+                        <i class="fa-solid fa-sliders"></i>
+                        <i class="fa-solid fa-volume-low"></i>
+                        <input type="range" min="1" max="100" step="1" class="musicbar">
+                        <i class="fa-solid fa-up-right-and-down-left-from-center"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
